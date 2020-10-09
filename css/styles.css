@@ -1,6 +1,9 @@
+*{
+    text-align: center;
+}
 .home{
     background-image:url("../images/backgrounds/h_img.jpg");
-    text-align: center;
+    color: aliceblue;
 }
 .services{
     background-image: url("../images/backgrounds/s_image.jpg");
