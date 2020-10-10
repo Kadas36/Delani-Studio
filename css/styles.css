@@ -49,7 +49,7 @@
     font-size: 15px;
 }
 .iconsActions div{
-    width: 200px;
+    width: 210px;
 }
 .portfolio{
     display: flex;
@@ -58,13 +58,23 @@
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .portfolio > img{
     width: 270px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 .contact{
     background-image: url("../images/backgrounds/c_image.jpg");
+}
+#name, #email, #userInfo{
+    text-align: left;
+}
+.contact h2{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+#userInfo{
+    margin-bottom: 60px;
 }
 
