@@ -18,9 +18,17 @@ $(document).ready(function(){
             $('.productDetails').toggle();
         })
 
+        let backgrounds = ['.bg1', '.bg2', '.bg3', '.bg4', '.bg5', '.bg6', '.bg7', '.bg8'];
+        backgrounds.forEach(function(background){
+            console.log(background);
+            $(background).hover(function(){
+                $(background +" .projectName").show();
+                },
+                function(){
+                    $(background+ " .projectName").hide();
+                }
+            );
 
-        $(".portfolio img").hover(function(){
+        })
             
-        });
-    
 });

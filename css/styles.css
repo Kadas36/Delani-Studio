@@ -6,8 +6,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .home{
     background-image:url("../images/backgrounds/h_img.jpg");
+    background-size: cover;
     color: aliceblue;
     margin-bottom: 40px;
 }
@@ -49,7 +51,10 @@
     font-size: 15px;
 }
 .iconsActions div{
-    width: 210px;
+    width: 360px;
+}
+.actions{
+    display: none;
 }
 .portfolio{
     display: flex;
@@ -60,10 +65,38 @@
     margin-right: auto;
     margin-bottom: 50px;
 }
-.portfolio > img{
-    width: 270px;
+.portfolio>div{
+    height: 240px;
+    width: 280px;
     margin-top: 20px;
 }
+
+.bg1{background-image: url("../images/portfolio/work1.jpg");}
+.bg2{background-image: url("../images/portfolio/work2.jpg");}
+.bg3{background-image: url("../images/portfolio/work3.jpg");}
+.bg4{background-image: url("../images/portfolio/work4.jpg");}
+.bg5{background-image: url("../images/portfolio/work5.jpg");}
+.bg6{background-image: url("../images/portfolio/work6.jpg");}
+.bg7{background-image: url("../images/portfolio/work7.jpg");}
+.bg8{background-image: url("../images/portfolio/work8.jpg");}
+
+
+.bg1,.bg2,.bg3,.bg4,.bg5,.bg6,.bg7,.bg8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectName{
+    width: 220px;
+    height: 180px;
+    border: 2px solid white;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    display: none;
+}
+
 .contact{
     background-image: url("../images/backgrounds/c_image.jpg");
 }
@@ -77,4 +110,5 @@
 #userInfo{
     margin-bottom: 60px;
 }
+
 
