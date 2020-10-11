@@ -96,19 +96,31 @@
     font-weight: bolder;
     display: none;
 }
-
+.groupField{
+    width: 60%;
+    display: flex;    
+}
+input{
+    background: transparent;
+    border: thin solid white;
+    text-align: left;
+}
+/* textarea{
+    width: 60%;
+    margin-bottom: 100px;
+    border: thin solid white;
+    border-radius: 2px;
+    background: transparent;
+    color: white;
+    text-align: left; */
+}
 .contact{
     background-image: url("../images/backgrounds/c_image.jpg");
-}
-#name, #email, #userInfo{
-    text-align: left;
+    color: white;
 }
 .contact h2{
     padding-top: 40px;
-    padding-bottom: 30px;
-}
-#userInfo{
-    margin-bottom: 60px;
+    padding-bottom: 25px;
 }
 
 
