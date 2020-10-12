@@ -18,5 +18,15 @@ $(document).ready(function(){
       );
 
   })
-            
+
+  $("form").submit(function(e){
+    e.preventDefault();  
+    let userName = document.getElementById('mce-FNAME').value;
+    alert( userName + " we have received your message. Thank you for reaching out to us.");
+    
+  });
+       
 });
+
+
+document.getElementById("formSubmitmc-embedded-subscribe-form").reset();
