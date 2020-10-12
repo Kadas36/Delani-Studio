@@ -8,7 +8,7 @@
 ## Technologies used
 * Html, css, javascript and mailchimp.
 ## Live link 
-https://kadas36.github.io/Birthday-Calculator-/
+https://kadas36.github.io/Delani-Studio/
 ## Support and contact details
 Incase of any troubles with the site email me at oduorthomas14@gmail.com
 ### License
