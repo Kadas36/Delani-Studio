@@ -25,7 +25,14 @@ $(document).ready(function(){
     alert( userName + " we have received your message. Thank you for reaching out to us.");  
     $("form").trigger("reset"); 
   });
+  
+  $("#mc-embedded-subscribe").click(function(){
+    $("#form").trigger("reset");
+  });
      
 });
+
+
+
 
 
