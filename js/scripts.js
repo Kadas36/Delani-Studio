@@ -27,7 +27,7 @@ $(document).ready(function(){
   });
   
   $("#mc-embedded-subscribe").click(function(){
-    $("#form").trigger("reset");
+    $("#mc-embedded-subscribe-form").trigger("reset");
   });
      
 });
