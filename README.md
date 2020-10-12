@@ -1,4 +1,4 @@
-# Akan Name Predictor
+# Delani Studio.
 #### Delani Studio is a place where we work with you to produce creative projects which are user friendly. We have a team of developers that work to deliver the best work. This is a website with our portfolio of our projects so far. © 2020.
 #### By **Thomas Oduor**
 ## Setup/Installation Requirements
